@@ -1,1 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+h1 {
+  color: #000000; 
+  font-family: 'Chewy';
+}
+body {
+  background-color: #edffff;
+}
 
+h1#site-title {
+  font-size: 75px;
+  letter-spacing: 1.25px; 
+  margin-top: 0; 
+  margin-bottom: .125em; 
+  text-align: center; 
+}
+
+h1#article-title {
+  font-size: 65px;
+  letter-spacing: 2px;
+}
+
+p {
+  color: #000000;
+  background: #e6ad9c;
+}
+
+figure {
+  border: 2px solid #bfe0e0; 
+  padding: 12px; 
+  padding-bottom: 24px; 
+  color: #000000; 
+}
+
+figure img {
+  width: 100%; 
+}
+
+figure.main-image {
+  background: #fabdaa; 
+  border-color: #bfe0e0;
+  color: black; 
+}
+
+figure.section-image {
+  float: right;
+  margin-left: 20px; 
+  margin-bottom: 32px;
+  max-width:320px;  
+}
+
+p img {
+  float: right; 
+  max-width: 60%; 
+  margin-left: 20px; 
+  margin-bottom: 32px; 
+}
+
+nav ul {
+ background-color: #fca083; 
+ display: flex; 
+ justify-content: flex-start; 
+ list-style: none; 
+ padding-left: 0; 
+ border: 1px solid #e39d88; 
+ text-align: center;
+}
+
+nav ul li {
+ }
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none; 
+  padding: 8px; 
+  border-bottom: 1px solid #e39d88; 
+  display: block;   
+}
+
+nav ul li a:hover {
+  background-color: #d4a090;
+}
+
+nav ul li:last-child a {
+border-bottom: none; 
+}
