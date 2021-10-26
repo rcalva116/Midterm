@@ -21,8 +21,13 @@ h1#site-title {
 h1#article-title {
   font-size: 65px;
   letter-spacing: 2px;
-}
+} 
 
+h2 {
+  font-size: 30px;
+  letter-spacing: 2px; 
+  text-align: center; 
+}
 p {
   color: #000000;
   background: #ffffff;
@@ -30,9 +35,9 @@ p {
 }
 
 figure {
-  border: 2px solid #7c1de0; 
-  padding: 12px; 
-  padding-bottom: 12px; 
+  border: 2px solid #53a324; 
+  padding: 10px; 
+  padding-bottom: 10px; 
   color: #960000;  
 }
 
@@ -47,14 +52,15 @@ figure.main-image {
 }
 
 figure.section-image {
-  float: right;
-  margin-left: 20px; 
-  margin-bottom: 32px;
+  float: right; 
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
   max-width:320px;  
 }
 
 p img {
-  float: left; 
+  float: right; 
   max-width: 60%; 
   margin-left: 20px; 
   margin-bottom: 32px; 
