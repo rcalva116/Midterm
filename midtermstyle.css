@@ -44,7 +44,6 @@ figure {
   padding-left: 10px; 
   padding-top: 10px; 
   padding-bottom: 10px; 
-
   border-width: 3px; 
   color: #6b150d;
   text-align: center;
@@ -62,13 +61,13 @@ figure.main-image {
 }
 
 figure.section-image {
-  float: right; 
-  max-width:200px;  
+  float: center; 
+  max-width:400px;  
 }
 
 p img {
-  float: right; 
-  max-width: 60%; 
+  float: center; 
+  max-width: 100%; 
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 50px;
