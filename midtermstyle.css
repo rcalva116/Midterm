@@ -40,6 +40,10 @@ p {
 figure {
   border: 2px solid #0c6b22;
   background: #9eab84;
+  padding-right: 10px; 
+  padding-left: 10px; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
   border-width: 3px; 
   color: #6b150d;
   text-align: center;
@@ -58,9 +62,6 @@ figure.main-image {
 
 figure.section-image {
   float: right; 
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 50px;
   max-width:320px;  
 }
 
