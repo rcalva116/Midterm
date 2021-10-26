@@ -1,16 +1,19 @@
-@import url(https://fonts.googleapis.com/css?family=Philosopher);
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
 h1 {
-  color: #000000; 
-  font-family: 'Philosopher';
+  color: #960000; 
+  font-family: 'Fredericka the Great';
+  border: 1px solid #ffffff;
+  text-align: center;
+  background-color: #fffff;
 }
 body {
-  background-color: #edffff;
+  background-color: #ffffff;
 }
 
 h1#site-title {
-  font-size: 75px;
-  letter-spacing: 1.25px; 
-  margin-top: 0; 
+  font-size: 60px;
+  letter-spacing: 2px; 
+  margin-top: 5px; 
   margin-bottom: .125em; 
   text-align: center; 
 }
@@ -22,14 +25,15 @@ h1#article-title {
 
 p {
   color: #000000;
-  background: #e6ad9c;
+  background: #ffffff;
+  text-align: center;
 }
 
 figure {
-  border: 2px solid #bfe0e0; 
+  border: 2px solid #7c1de0; 
   padding: 12px; 
-  padding-bottom: 24px; 
-  color: #000000; 
+  padding-bottom: 12px; 
+  color: #960000;  
 }
 
 figure img {
@@ -37,8 +41,8 @@ figure img {
 }
 
 figure.main-image {
-  background: #fabdaa; 
-  border-color: #bfe0e0;
+  background: #ebc438; 
+  border-color: #000000;
   color: black; 
 }
 
@@ -50,19 +54,19 @@ figure.section-image {
 }
 
 p img {
-  float: right; 
+  float: left; 
   max-width: 60%; 
   margin-left: 20px; 
   margin-bottom: 32px; 
 }
 
 nav ul {
- background-color: #fca083; 
+ background-color: #000000; 
  display: flex; 
- justify-content: flex-start; 
+ justify-content: space-evenly; 
  list-style: none; 
  padding-left: 0; 
- border: 1px solid #e39d88; 
+ border: 2px solid #ebc438; 
  text-align: center;
 }
 
@@ -70,15 +74,15 @@ nav ul li {
  }
 
 nav ul li a {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none; 
   padding: 8px; 
-  border-bottom: 1px solid #e39d88; 
-  display: block;   
+  border-bottom: 1px; 
+  display: block; 
 }
 
 nav ul li a:hover {
-  background-color: #d4a090;
+  background-color: #63120b;
 }
 
 nav ul li:last-child a {
