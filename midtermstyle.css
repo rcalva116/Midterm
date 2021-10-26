@@ -57,15 +57,15 @@ figure.main-image {
 }
 
 figure.section-image {
-  float: right; 
+  float: center; 
   max-width:320px;  
 }
 
 p img {
-  float: right; 
+  float: center; 
   max-width: 60%; 
-  margin-left: 20px; 
-  margin-bottom: 32px; 
+  margin-left: 5px; 
+  margin-bottom: 5px; 
 }
 
 nav ul {
