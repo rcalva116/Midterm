@@ -61,11 +61,11 @@ figure.main-image {
 }
 
 figure.section-image {
-  float: left; 
-  margin-left: 100px;
-  margin-right: 100px;
+  float: right; 
+  margin-left: 50px;
+  margin-right: 50px;
   margin-bottom: 50px;
-  max-width:320px;  
+  max-width:350px;  
 }
 
 nav ul {
