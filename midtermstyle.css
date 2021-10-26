@@ -1,44 +1,52 @@
-@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+English+SC);
+@import url(https://fonts.googleapis.com/css?family=Oranienbaum);
 h1 {
-  color: #960000; 
-  font-family: 'Fredericka the Great';
+  color: #9e4434; 
+  font-family: 'IM Fell English SC';
   border: 1px solid #ffffff;
   text-align: center;
   background-color: #ffffff;
 }
 body {
-  background-color: #ffffff;
+  background-color: white;
 }
 
 h1#site-title {
-  font-size: 60px;
-  letter-spacing: 2px; 
+  font-size: 50px;
+  letter-spacing: 3px; 
   margin-top: 5px; 
   margin-bottom: .125em; 
   text-align: center; 
 }
 
 h1#article-title {
-  font-size: 65px;
+  font-size: 40px;
   letter-spacing: 2px;
 } 
 
 h2 {
-  font-size: 30px;
-  letter-spacing: 2px; 
+  font-size: 25px;
+  letter-spacing: 1.5px; 
   text-align: center; 
+  color: #960000;
 }
 p {
   color: #000000;
   background: #ffffff;
+  font-family: 'Oranienbaum';
   text-align: center;
 }
 
 figure {
-  border: 2px solid #53a324; 
-  padding: 10px; 
+  border: 2px solid #0c6b22;
+  background: #9eab84;
+  border-width: 3px; 
+  padding-right: 10px; 
+  padding-left: 10px; 
+  padding-top: 10px; 
   padding-bottom: 10px; 
-  color: #960000;  
+  color: #6b150d;
+  text-align: center;
 }
 
 figure img {
@@ -46,9 +54,10 @@ figure img {
 }
 
 figure.main-image {
-  background: #ebc438; 
-  border-color: #000000;
-  color: black; 
+  background: black; 
+  border-color: #ff7700;
+  color: white; 
+  text-align: right; 
 }
 
 figure.section-image {
@@ -88,7 +97,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #63120b;
+  background-color: #c78528;
 }
 
 nav ul li:last-child a {
