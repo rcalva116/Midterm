@@ -64,7 +64,7 @@ figure.main-image {
 }
 
 figure.section-image {
-  float: left; 
+  float: right; 
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 30px;
