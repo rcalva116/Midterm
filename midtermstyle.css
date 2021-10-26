@@ -41,7 +41,7 @@ p {
 
 figure {
   border: 2px solid #0c6b22;
-  background: #9eab84;
+  background: white;
   border-width: 2px; 
   padding-right: 10px; 
   padding-left: 10px; 
@@ -73,7 +73,7 @@ figure.section-image {
 
 p img {
   float: left; 
-  max-width: 60%; 
+  max-width: 800%; 
   margin-left: 20px; 
   margin-bottom: 32px; 
 }
