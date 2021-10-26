@@ -61,7 +61,7 @@ figure.main-image {
 }
 
 figure.section-image {
-  float: right; 
+  float: left; 
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 50px;
@@ -69,7 +69,7 @@ figure.section-image {
 }
 
 p img {
-  float: right; 
+  float: left; 
   max-width: 60%; 
   margin-left: 20px; 
   margin-bottom: 32px; 
