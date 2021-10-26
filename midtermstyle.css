@@ -71,6 +71,13 @@ figure.section-image {
   max-width:350px;  
 }
 
+p img {
+  float: left; 
+  max-width: 60%; 
+  margin-left: 20px; 
+  margin-bottom: 32px; 
+}
+
 nav ul {
  background-color: #000000; 
  display: flex; 
